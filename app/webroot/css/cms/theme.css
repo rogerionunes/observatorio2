@@ -1,0 +1,51 @@
+/* Global */
+html,body{height:100%;}
+body{padding-top:50px;background-color:#ecf0f1;}
+a{color:#1C1C1C;}
+a:hover{color:#1abc9c;text-decoration:none;}
+
+/*  Login */
+.login{margin:0 auto;padding:20px 0;max-width:340px;}
+.login header{margin-bottom:20px;}
+.login header h1{text-transform:uppercase;font-weight:300;font-size:1.571em;}
+.login .box{margin-bottom:20px;}
+.login .btn{border-color:#696969;background-color:#363636;}
+.login .btn:hover{background-color:#696969;}
+.login .forgot a{text-decoration:underline;font-style:italic;}
+
+/* Navbar */
+.navbar-inverse{border-color:#696969;background-color:#363636;}
+.navbar-inverse a{color:#fff !important;}
+.navbar .navbar-brand{text-transform:uppercase;}
+.navbar-inverse .nav a{border-left:1px solid #4F4F4F;}
+.navbar-inverse .nav>li>a:hover,.navbar-inverse .nav>li>a:focus{background-color:#16a085 !important;}
+
+/* Sidebar */
+.sidebar ul{margin:0;padding:0;list-style-type:none;}
+.sidebar ul > li > a{display:block;padding:16px 0;outline:0px;border-bottom:1px solid #dae1e8;box-shadow:0 2px 1px -1px #fff;color:#95a5a6;text-shadow:1px 1px 1px #fff;font-weight:400;}
+.sidebar a span{margin-left:10px;-webkit-transition:color .1s linear;-moz-transition:color .1s linear;-o-transition:color .1s linear;transition:color .1s linear;-moz--webkit--o-;}
+.sidebar a i{opacity:0.7;-webkit-transition:opacity .1s ease;-moz-transition:opacity .1s ease;-o-transition:opacity .1s ease;transition:opacity .1s ease;-moz--webkit--o-;}
+.sidebar li.active i,.sidebar li:hover i{opacity:1;}
+.sidebar li.active > a,.sidebar li > a:hover{color:#363636;}
+
+/* Content */
+.content{padding:0 30px;min-height:100%;border-left:1px solid #dae3e9;background:#fff;}
+.content .page-header{margin-top:0;}
+.content .page-header h1{color:#4F4F4F;font-weight:100;}
+.content .panel-heading{text-transform:uppercase;}
+
+/* Breadcrumbs */
+.breadcrumb{padding:0;background:none;margin:0;}
+.breadcrumb .active a{color:#999}
+
+/* Stats */
+.stats .stat{position:relative;padding:25px 0px 30px 0px;border-right:1px solid #e8e9ee;text-align:right;}
+.stats .stat.last{border-right:0px;}
+.stats .stat .data{padding-right:50px;text-transform:uppercase;font-weight:600;font-size:1.143em;}
+.stats .stat .data .number{margin-right:15px;color:#1abc9c;font-size:1.786em;}
+.stats .stat .date{position:absolute;right:50px;color:#bdc3c7;font-weight:lighter;font-style:italic;font-size:0.929em;}
+
+/* Shortcuts */
+.shortcuts .shortcut{text-align:center;max-width:126px;display:inline-block;padding:22px;margin:0 5px 1em;vertical-align:top;border:1px solid #ddd;box-sizing:border-box;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;}
+.shortcuts .shortcut .glyphicon{width:100%;margin-top:.25em;margin-bottom:.35em;font-size:32px}
+.shortcuts .shortcut-label{display:block;font-weight:400;color:#555}

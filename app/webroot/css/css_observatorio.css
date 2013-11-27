@@ -1,0 +1,344 @@
+	
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	color: black;
+	font-size: 12px;
+	margin: auto;
+	background-image:url(../img/index/background.gif);
+}
+
+/************************* FORMULARIO *************************/
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/
+.reset input {
+	width: auto;
+    padding: 9px 15px;
+    background: #617798;
+    border: 0;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+	
+input, textarea { 
+    padding: 3px;
+    border: solid 1px #E5E5E5;
+    outline: 0;
+    font: normal 12px/100% Verdana, Tahoma, sans-serif;
+    width: 230px;
+    margin-right: 100px;
+    margin-left: -100px;
+    background: #FFFFFF url('bg_form.png') left top repeat-x;
+    background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
+    background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+    -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+    -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+    }
+ 
+textarea { 
+    width: 230px;
+    max-width: 230px;
+    height: 90px;
+    line-height: 150%;
+    }
+ 
+input:hover, textarea:hover,
+input:focus, textarea:focus { 
+    border-color: #C9C9C9; 
+    -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;
+    }
+ 
+.form label { 
+    margin-left: 10px; 
+    color: #999999; 
+    }
+ 
+.submit input {
+    width: auto;
+    padding: 4px 10px;
+    background: #617798;
+    border: 0;
+    font-size: 14px;
+    color: #FFFFFF;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    }
+	
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/
+
+
+
+/***************** LOGO *******************/
+#header {
+	background-image:url(../img/index/background.gif);
+	margin: 0px;
+	width: 960px;
+	height: 250px;
+}
+
+/*****************************************/
+
+
+/***************** EFEITOS DE LINKS *******************/
+a:link{
+	text-decoration: none;
+}
+
+a:visited{
+	color: gray;
+	}
+
+a:hover {
+	 text-decoration:underline;
+	 color: red;
+}
+
+/******************************************************/
+
+subtopico{
+	color: #0CF;
+	font-size: 14px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	line-height: 1.4;
+	font-weight: bold;
+	}
+
+#content {
+	margin: auto;
+	height: 550px;
+	width: 960px;
+	background-image:url(../img/index/background.gif);
+}
+
+#cordel {
+	background-image:url(../img/index/background.gif);
+	margin: 0px;
+	width: 960px;
+}
+
+#link {
+	background-color:black;
+	padding-bottom: 0px;
+	margin: auto;
+	color: white;
+}
+
+#righttop{
+	float: right;
+	width: 350px;
+	height: 500px;
+}
+
+#not1{
+	float: right;
+	width:350px;
+	height: 80px;
+}
+
+#not1image{
+	float: left;
+	width: 120px;
+	height: 80px;
+	}
+
+#lefttop{
+	float:left;
+	width: 580px;
+	height: 500px;
+}
+
+#divisaohorizontal {
+	width:960px;
+	height:8px;
+
+}
+
+.textomapa{
+	float:left;
+	widht:580px;
+	height:300px;
+}
+	
+
+.divindicadores{
+    width:310px;
+	float:left;
+}
+
+.divboaspraticas{
+	width: 270px;
+	float:left;
+	height:145px;
+}
+
+.divmapainterativo{
+	width: 580px;
+	float:left;
+	}
+
+#divisaovertical {
+ 	float:left;
+	width: 8px;
+	height: 125px;
+}
+
+#divisaovertical2 {
+	float: left;
+	width: 8px;
+	height: 105px;
+}
+
+#divisaovertical3 {
+	float: left;
+	width: 8px;
+	height: 125px;
+}
+
+#divmid {
+	width:960px;
+	margin: auto;
+	height: 500px;
+}
+
+#divtotal {
+	width: 960px;
+	margin: auto;
+}
+
+#div1 {
+	float: left;
+	width: 360px;
+	height: 535px;
+}
+
+#div2 {
+	padding-top: 15px;
+	text-align:center;
+	float: left;
+	width: 300px;
+	height: 535px;
+}
+
+#div3 {
+	padding-left:3px;
+	float: left;
+	width: 280px;
+	height: 535px;
+}
+
+#altnav {
+ 	color: white;
+	margin-top: 5px;
+
+}
+
+#parceiros {
+	margin-top:-120px;
+	height:100px;
+	width:660px;
+	float:left;
+	background-image:url(../img/index/background.gif);
+}
+
+#p1 {
+	margin-top: 8px;
+	float:left;
+	height: 60px;
+	width: 125px;
+	}
+
+	
+#p2 {
+	float:left;
+	margin-left:2px;
+	height: 60px;
+	width: 125px;
+	padding-top:35px;
+	}
+
+#p3 {
+	float:left;
+	margin-left:2px;
+	height: 60px;
+	width: 125px;
+	padding-top:20px;
+	}
+
+#p4 {
+	float:left;
+	margin-left:2px;
+	height: 60px;
+	width: 125px;
+	padding-top:25px;
+	padding-left:5px;
+	}
+
+#p5 {
+	float:left;
+	margin-left:2px;
+	height: 60px;
+	width: 125px;
+	padding-top:25px;
+	}	
+	
+#footer a {
+	color: #c9c9c9;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	color: #db6d16;
+}
+
+#footer {
+	clear: both;
+	background-color: black;
+	font-family: Tahoma, Arial, Helvetica, Sans-serif;
+	font-size: 10px;
+	color: #c9c9c9;
+	height: 70px;
+	text-align: center;
+}
+
+#footerleft {
+	float: left;
+	width: 280px;
+	height:70px;
+}
+
+.footerleft {
+	margin-top: 3px;
+}
+
+
+#footermiddle {
+	float: left;
+	width: 350px;
+	height:70px;
+}
+
+#footerright {
+	float: left;
+	width: 330px;
+	height:70px;
+}
+
+.footerstyle{
+	margin-top:20px;
+	}
+
+#un {
+	float:right;
+	padding-right:5px;
+	height: 70px;
+	width: 70px;
+	}
+	
+
+    </style>
+    

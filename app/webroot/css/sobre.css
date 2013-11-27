@@ -1,0 +1,159 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	color: black;
+	font-size: 12px;
+	margin: auto;
+	background-image:url(../img/index/background.gif);
+}
+
+
+/***************** LOGO *******************/
+#header {
+	background-image:url(../img/index/background.gif);
+	margin: 0px;
+	width: 960px;
+	height: 250px;
+}
+
+/*****************************************/
+
+
+/***************** EFEITOS DE LINKS *******************/
+a:link{
+	text-decoration: none;
+}
+
+a:visited{
+	color: gray;
+	}
+
+a:hover {
+	 text-decoration:underline;
+	 color: red;
+}
+
+/******************************************************/
+
+.texto{
+	line-height:2px;
+	margin-top:1px;
+	}
+	
+.subtopico{
+	line-height:1px;
+	font-size:12px;
+	color:#39F;
+	}
+
+#box{
+	height:80px;
+	width:80px;
+	float:left;
+	clear:right;
+}
+
+#retangulo{
+	margin-top:5px;
+	margin-bottom:5px;
+	height:80px;
+	width:960px;
+	float:left;
+	}
+
+#content {
+	margin: auto;
+	height: 550px;
+	width: 960px;
+	background-image:url(../img/index/background.gif);
+}
+
+#cordel {
+	background-image:url(../img/index/background.gif);
+	margin: 0px;
+	width: 960px;
+}
+
+#link {
+	background-color:black;
+	padding-bottom: 0px;
+	margin: auto;
+	color: white;
+}
+
+#divmid {
+	width:960px;
+	margin: auto;
+	height: 500px;
+}
+
+#divtotal {
+	width: 960px;
+	margin: auto;
+}
+
+#altnav {
+ 	color: white;
+	margin-top: 5px;
+
+}
+	
+#footer a {
+	color: #c9c9c9;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	color: #db6d16;
+}
+
+#footer {
+	clear: both;
+	background-color: black;
+	font-family: Tahoma, Arial, Helvetica, Sans-serif;
+	font-size: 10px;
+	color: #c9c9c9;
+	height: 70px;
+	text-align: center;
+}
+
+#footerleft {
+	float: left;
+	width: 280px;
+	height:70px;
+}
+
+.footerleft {
+	margin-top: 3px;
+}
+
+
+#footermiddle {
+	float: left;
+	width: 350px;
+	height:70px;
+}
+
+#footerright {
+	float: left;
+	width: 330px;
+	height:70px;
+}
+
+.footerstyle{
+	margin-top:20px;
+	}
+
+#un {
+	float:right;
+	padding-right:5px;
+	height: 70px;
+	width: 70px;
+	}
+	
+
+    </style>
+    
