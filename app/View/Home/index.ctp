@@ -1,13 +1,12 @@
 <?php echo $this->Html->css('css_observatorio'); ?>
 <div id="divmid">
 <div id="lefttop">
-  <div class="divmapainterativo">
-  <p>
-  	<?php echo $this->Html->image('index/mapa.png', array('width' => '400', 'height'=>'190')); ?>
-  </p>
+	<div class="divmapainterativo">
+  	<p align="center"><?php echo $this->Html->image('index/mapa.png', array('width' => '400', 'height'=>'190')); ?></p>
+    <subtopico>MAPA INTERATIVO</subtopico><br />
+  &quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commod.
+  </div>
 
-  <subtopico>MAPA INTERATIVO</subtopico><br />
-  &quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commod.</div>
   <div class="divindicadores">
     <p>
     	<?php echo $this->Html->image('index/indicadores/boaspraticas.png', array('width' => '228', 'height'=>'110')); ?>
@@ -27,26 +26,26 @@
 
 <?php echo $this->Html->image('noticias.png'); ?>
 <br /><br />
-<?php if (count($results) > 0): ?>
-<?php foreach ($results as $result): ?>	
+<?php if (count($notices) > 0): ?>
+<?php foreach ($notices as $notices): ?>	
 <div id="not1">
 	<div id="not1image">
 		<?php
 
-		if (!$result['Notice']['image_small']):
+		if (!$notices['Notice']['image_small']):
 			$img = 'notice/nophoto.jpg';
 		else:
-			$img = 'notices/' . $result['Notice']['image_small'];
+			$img = 'notices/' . $notices['Notice']['image_small'];
 		endif; 
 
 		echo
 							$this->Html->link(
-    							$this->Html->image($img, array('alt' => 'Noticia', 'class' => 'img-rounded img-responsive')),
+    							$this->Html->image($img, array('alt' => 'Noticia')),
 								array(
 									'controller' => 'notices',
 									'action' => 'view',
-									'id' => $result['Notice']['id'],
-									'slug' => $result['Notice']['slug']
+									'id' => $notices['Notice']['id'],
+									'slug' => $notices['Notice']['slug']
 								),
 								array(
 									'escape' => false,
@@ -56,8 +55,8 @@
 		?>
 	</div>
 
-	<h3><?php echo $result['Notice']['title']; ?> </h3>
-		<p><?php echo $result['Notice']['briefDescription']; ?></p>
+	<h3><?php echo $notices['Notice']['title']; ?> </h3>
+		<p><?php echo $notices['Notice']['briefDescription']; ?></p>
 		<hr />
 		<?php endforeach; ?>
 		<?php else: ?>
@@ -83,24 +82,7 @@
 <div id="content"> 
 
 <div id="div1">
-<!-- Start WOWSlider.com BODY section id=wowslider-container2 -->
-<div id="wowslider-container2">
-<div class="ws_images"><ul>
-<li>
-	<?php echo $this->Html->image('index/slideshow/data2/images/11894111.jpg', array('alt'=>'Sertão', 'title'=>'Sertão')); ?>
-</li>
-<li>
-	<?php echo $this->Html->image('index/slideshow/data2/images/lajedo_de_pai_mateus.jpg', array('alt'=>'Lajedo de Pai Mateus', 'title'=>'Lajedo de Pai Mateus')); ?>
-</li>
-</ul>
-</div>
 
-<div class="ws_bullets"><div>
-	<?php echo $this->Html->image('index/slideshow/data2/tooltips/11894111.jpg', array('alt'=>'Sertão', 'title'=>'Sertão')); ?>
-	<?php echo $this->Html->image('index/slideshow/data2/tooltips/lajedo_de_pai_mateus.jpg', array('alt'=>'Sertão', 'title'=>'Sertão')); ?>
-
-</div></div>
-</div>
 
 </div>
 
@@ -209,17 +191,19 @@
 </div>
 
 <div id="parceiros">
+
 	<div id="p1">
 		<?php echo $this->Html->image('index/parceiros.png', array('width'=>'92','height'=>'15')); ?>
 	</div>
-	<?php if (count($results) > 0): ?>
-    	<?php foreach ($results as $result): ?>
-	<div id="p1">
+	<?php if (count($parceiros) > 0): ?>
+    	<?php foreach ($parceiros as $parceiros): ?>
+
+	<div id="p2">
 		<?php
-						if (!$result['Partner']['image_small']):
+						if (!$parceiros['Partner']['image_small']):
 							$img = 'partners/nophoto.jpg';
 						else:
-							$img = 'partners/' . $result['Partner']['image_small'];
+							$img = 'partners/' . $parceiros['Partner']['image_small'];
 						endif;
 
 						echo
@@ -227,10 +211,11 @@
 			?>
 
     </div>
-<?php endforeach; ?>
 
-</div>
+<?php endforeach; ?>
 <?php else: ?>
 		<p>Nenhum parceiro cadastrado.</p>
 		<?php endif; ?>
+</div>
+
 </div>
