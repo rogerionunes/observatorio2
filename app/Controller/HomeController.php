@@ -27,13 +27,15 @@ class HomeController extends AppController {
 		//$this->User->save(array('username' => 'NomeDoUsuario', 'password' => 'SenhaDoUsuario', 'email' => 'EmailDoUsuario', 'is_active' => true));
 		
 		// Retorna todos os resultados parceiros e noticias
-		$results = $this->paginate();
+		$notices = $this->Notice->find('all', array('limit' => 3));
+		$parceiros = $this->Partner->find('all');
 
 		// Set
 		$this->set(
 			array(
 				'title_for_layout' 	=> 'Início',
-				'results'			=> $results
+				'notices' => $notices,
+				'parceiros' => $parceiros
 			)
 		);	
 
